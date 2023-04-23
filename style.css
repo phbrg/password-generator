@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600;700&display=swap');
+
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 1vh;
+  position: absolute;
+  width: 1vh;
+  background-color: #000000;
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Montserrat';
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  letter-spacing: 0.05vh;
+  resize: none;
+  outline: none;
+  border: 0;
+  color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+}
+
+/* root */
+:root {
+  --corfundo: #111;
+  --corfundo2: #ffffff;
+  --corletra: #303030;
+}
+
+/* main */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: var(--corfundo);
+}
+
+/* section */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 70%;
+  width: 30%;
+  background-color: var(--corfundo2);
+  border-radius: 5px;
+}
+
+h1 {
+  margin-left: 5%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--corletra);
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  width: 85%;
+  color: var(--corletra);
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  width: 85%;
+  color: var(--corletra);
+}
+
+/* button */
+
+button {
+  text-align: center;
+  background-color: #0066ff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 70%;
+  height: 10%;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: rgb(211, 211, 211);
+  cursor: pointer;
+}
+
+button:active {
+  color: rgb(181, 181, 181);
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 12.9%;
+  width: 100%;
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+/* form */
+form {
+  min-width: 80%;
+}
+
+form div {
+  margin: 4%;
+}
+
+form div label {
+  font-weight: 700;
+  margin-left: 5%;
+  color: var(--corletra);
+}
+
+/* password */
+.backPass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 10%;
+  width: 77%;
+  padding: 3%;
+  border-radius: 3px;
+  border: 2px solid rgb(235, 235, 235);
+  background-color: white;
+}
+
+ion-icon {
+  font-size: 1.2rem;
+}
+
+.backPass p {
+  font-weight: 700;
+  color: rgb(53, 53, 53);
+}
+
+/* strong bar */
+.passStrongIn {
+  height: 1%;
+  width: 77%;
+  background-color: rgb(235, 235, 235);
+}
+
+.passStrongOut {
+  height: 100%;
+  width: 0%;
+  background-color: transparent;
+}
+
+/* range bar */
+
+.passRange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7%;
+  width: 80%;
+}
+
+.passRange p {
+  width: 10%;
+  font-weight: 700;
+}
+
+input[type=range] {
+  width: 80%;
+  cursor: pointer;
+}
+
+/* extras */
+.mrg {
+  margin: 1%;
+}
+
+.sep {
+  height: 2.5%;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
