@@ -1,0 +1,43 @@
+<html lang="pr-br">
+        <head>
+            <link rel="stylesheet" href="./assets/css/style.css">
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <title>Gerador de senha</title>
+            <link rel="shortcut icon" href="#" type="image/x-icon">
+        </head>
+    <body>
+        <main>
+            <div class="container">
+                <h1>Gerador de senhas</h1>
+                <p class="saida">Sua senha</p>
+                <div class="seletores">
+                    <div>
+                        <label for="quantidade">Tamanho da senha</label>
+                        <input type="range" name="quantidade" class="quantidade" min="3" max="20">
+                        <p class="qtdRange">12</p>
+                    </div>
+                    <div>
+                        <label for="maiuscula">Letras maiusculas</label>
+                        <input type="checkbox" name="maiuscula" class="maiuscula checkCommun">
+                    </div>
+                    <div>
+                        <label for="minuscula">Letras minusculas</label>
+                        <input type="checkbox" name="minuscula" class="minuscula checkCommun">
+                    </div>
+                    <div>
+                        <label for="numero">Letras numeros</label>
+                        <input type="checkbox" name="numero" class="numero checkCommun">
+                    </div>
+                    <div>
+                        <label for="simbolo">Letras simbolos</label>
+                        <input type="checkbox" name="simbolo" class="simbolo checkCommun">
+                    </div>
+
+                    <button onclick="gerarSenha()">Gerar senha</button>
+                </div>
+            </div>
+        </main>
+        <script src="./assets/script/script.js"></script>
+    </body>
+</html>
