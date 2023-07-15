@@ -1,4 +1,5 @@
 # 🔐 Password generator
+- um gerador de senhas feito em Javascript
 - codigo limpo e autoral
 - feito com o intuito unicamente de aplicar meus conhecimentos e aprimora-los
 - linguagens utilizadas: HTML, CSS & Javascript
